@@ -1,0 +1,21 @@
+
+Tips and Tricks for Competitive Programming
+
+> Problems where we perform operations on ranges (like adding on a range) 
+	> Minimum operations needed to make everything equal:
+		> Greedily move left to right.
+
+> Cyclic shifts
+	> Append the array to itself.
+
+> For weird questions try something with fixing indexing at 0 or n-1 and perform operations then 
+
+> DP
+	> Try dp on ranges.
+	> Try dp with ranges with some easy coefficient as constant.
+
+> for questions relating to gcd(a[i],a[j])
+	> mobius inversion (need to find x but find x' | x).
+
+> look for invariants
+	> maybe xor remains the same all the time.
