@@ -42,7 +42,7 @@ public:
     return -parent_or_size[leader(a)];
   }
   
-  vector<vector<int>> groups() const {
+  vector<vector<int>> groups() {
     vector<vector<int>> result(n);
     for(int i = 0; i < n; i++)
       result[leader(i)].push_back(i); 

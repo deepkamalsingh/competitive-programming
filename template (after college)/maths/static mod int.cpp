@@ -5,7 +5,7 @@ public:
 
   static_mint() : _v(0) {}
 
-  int32_t mod() const {
+  static constexpr int32_t mod() {
     return MOD;
   }
 
@@ -148,6 +148,8 @@ void prepare(int n){
 
   for(int i = n - 1; i >= 2; --i)
     inv_fact[i] = mint(i + 1) * inv_fact[i + 1];
+
+  // inv[i] = inv[MOD % i] * (MOD - MOD / i);
 }
 
 mint choose(int n, int r){

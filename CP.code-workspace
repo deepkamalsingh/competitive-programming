@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ios": "cpp",
+			"map": "cpp",
+			"__tree": "cpp",
+			"__bit_reference": "cpp",
+			"__debug": "cpp",
+			"__node_handle": "cpp",
+			"__split_buffer": "cpp",
+			"array": "cpp",
+			"atomic": "cpp",
+			"bitset": "cpp",
+			"deque": "cpp",
+			"exception": "cpp",
+			"initializer_list": "cpp",
+			"iosfwd": "cpp",
+			"istream": "cpp",
+			"limits": "cpp",
+			"new": "cpp",
+			"ostream": "cpp",
+			"queue": "cpp",
+			"set": "cpp",
+			"streambuf": "cpp",
+			"string": "cpp",
+			"tuple": "cpp",
+			"typeinfo": "cpp",
+			"vector": "cpp",
+			"numeric": "cpp",
+			"iostream": "cpp",
+			"__mutex_base": "cpp",
+			"optional": "cpp",
+			"sstream": "cpp",
+			"string_view": "cpp",
+			"variant": "cpp",
+			"__locale": "cpp",
+			"__hash_table": "cpp",
+			"list": "cpp",
+			"unordered_map": "cpp"
+		}
+	}
+}
